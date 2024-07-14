@@ -132,7 +132,7 @@ public class DocumentoController {
 		
 	}
 	/**
-	 * Método para criar elemento titulo em um documento
+	 * Método para criar elemento titulo em um documento.
 	 * Primeiro valida a entrada para o titulo do documento e verifica se o documento existe. Caso não exista um NoSuchElementException("O DOCUMENTO NÃO EXISTE") é lançado
 	 * Caso exista, um objeto Titulo() é criado com as demais entradas e salvo no documento, cujo foi puxado pelo titulo passado anteriormente.
 	 * @param tituloDoc Título do documento
